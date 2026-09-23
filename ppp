@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Iron Trail GmbH – hochwertige, individuell konfigurierbare Spezialmesser aus Fulpmes, Tirol. Made for the Trail. Built for you.">
+<title>Iron Trail GmbH | Made for the Trail. Built for you.</title>
+<style>
+:root{--bg:#0a0a0a;--panel:#111;--text:#f4f4f4;--muted:#a5a5a5;--line:#252525;--accent:#d8ff3e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(10,10,10,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1180px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:900;letter-spacing:3px}.brand span{color:var(--accent)}
+nav a{margin-left:22px;color:#ccc;font-size:14px}nav a:hover{color:var(--accent)}
+.hero{min-height:100vh;display:flex;align-items:center;background:radial-gradient(circle at 75% 35%,#202020 0,#0a0a0a 45%);padding:130px 24px 70px}
+.hero-inner{max-width:1180px;margin:auto;width:100%}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:4px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(48px,8vw,100px);line-height:.95;margin:18px 0;max-width:900px;letter-spacing:-4px}h1 span{color:var(--accent)}
+.lead{max-width:680px;color:#c9c9c9;font-size:20px}.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}.btn{padding:14px 22px;border:1px solid #444;border-radius:4px;font-weight:700}.btn.primary{background:var(--accent);color:#080808;border-color:var(--accent)}
+section{padding:95px 24px}.container{max-width:1180px;margin:auto}.section-title{font-size:42px;line-height:1.05;margin:0 0 15px}.sub{color:var(--muted);max-width:700px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}.card{background:var(--panel);border:1px solid var(--line);padding:28px;min-height:210px}.card h3{margin-top:0;font-size:22px}.num{color:var(--accent);font-size:13px;font-weight:bold;letter-spacing:2px}
+.about{background:#0d0d0d}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.quote{font-size:30px;font-weight:700;line-height:1.2;border-left:3px solid var(--accent);padding-left:25px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fact{border:1px solid var(--line);padding:20px}.fact b{display:block;font-size:22px}.fact small{color:var(--muted)}
+.cta{background:var(--accent);color:#080808}.cta .section-title{max-width:700px}.cta p{max-width:650px}.cta .btn{border-color:#080808;color:#080808}
+footer{padding:45px 24px;border-top:1px solid var(--line);color:#888}.footer-inner{max-width:1180px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){nav{display:none}.grid,.about-grid{grid-template-columns:1fr}.hero{min-height:90vh}h1{letter-spacing:-2px}.facts{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-inner">
+<a class="brand" href="#start">IRON <span>TRAIL</span></a>
+<nav><a href="#produkte">Produkte</a><a href="#unternehmen">Unternehmen</a><a href="#werte">Werte</a><a href="#kontakt">Kontakt</a></nav>
+</div></header>
+
+<main id="start">
+<section class="hero"><div class="hero-inner">
+<div class="eyebrow">Iron Trail GmbH · Fulpmes · Tirol</div>
+<h1>MADE FOR THE <span>TRAIL.</span><br>BUILT FOR YOU.</h1>
+<p class="lead">Hochwertige Spezialmesser für Menschen, die draußen unterwegs sind. Individuell konfigurierbar, präzise gefertigt und für anspruchsvolle Einsätze entwickelt.</p>
+<div class="buttons"><a class="btn primary" href="#produkte">Produkte entdecken</a><a class="btn" href="#kontakt">Kontakt aufnehmen</a></div>
+</div></section>
+
+<section id="produkte"><div class="container">
+<div class="eyebrow">Unser Sortiment</div><h2 class="section-title">Für Jagd. Camping. Outdoor.</h2>
+<p class="sub">Iron Trail verbindet moderne Fertigung mit einem klaren Anspruch an Qualität, Individualität und Langlebigkeit.</p>
+<div class="grid">
+<article class="card"><div class="num">01 · HUNT</div><h3>Jagdmesser</h3><p>Robuste Messer für Jagd und Outdoor-Einsatz – funktional, präzise und auf den jeweiligen Zweck ausgelegt.</p></article>
+<article class="card"><div class="num">02 · CAMP</div><h3>Campingmesser</h3><p>Praktische Begleiter für Lager, Touren und Abenteuer. Entwickelt für zuverlässige Performance unterwegs.</p></article>
+<article class="card"><div class="num">03 · SURVIVAL</div><h3>Survival & Trekking</h3><p>Widerstandsfähige Designs für anspruchsvolle Touren, Wanderungen und Survival-Anwendungen.</p></article>
+</div></div></section>
+
+<section class="about" id="unternehmen"><div class="container about-grid">
+<div><div class="eyebrow">Über Iron Trail</div><h2 class="section-title">Drei kreative Köpfe. Ein gemeinsamer Anspruch.</h2>
+<p>Iron Trail GmbH ist ein junges Unternehmen aus Fulpmes in Tirol. Wir entwickeln und fertigen Spezialmesser für Menschen, die Wert auf Funktion, Individualität und eine langlebige Ausführung legen.</p>
+<p>Unsere Produkte verbinden handwerkliches Denken mit moderner Metallverarbeitung und einem klaren Blick für Details.</p></div>
+<div class="quote">„Ein Messer soll nicht nur gut aussehen. Es soll draußen funktionieren.“</div>
+</div></section>
+
+<section id="werte"><div class="container">
+<div class="eyebrow">Was uns antreibt</div><h2 class="section-title">Qualität ist kein Extra.</h2>
+<div class="grid">
+<div class="card"><div class="num">01</div><h3>Präzision</h3><p>Saubere Fertigung und konsequente Aufmerksamkeit für Details.</p></div>
+<div class="card"><div class="num">02</div><h3>Individualität</h3><p>Konfigurierbare Lösungen, die zum Einsatz und zum Menschen passen.</p></div>
+<div class="card"><div class="num">03</div><h3>Langlebigkeit</h3><p>Entwickelt mit dem Anspruch, auch bei anspruchsvollen Touren zuverlässig zu bleiben.</p></div>
+</div></div></section>
+
+<section class="cta" id="kontakt"><div class="container">
+<div class="eyebrow">Kontakt</div><h2 class="section-title">Bereit für dein nächstes Abenteuer?</h2>
+<p>Du möchtest mehr über unsere Messer, individuelle Konfigurationen oder unsere Produkte erfahren? Schreib uns – wir melden uns bei dir.</p>
+<div class="buttons"><a class="btn" href="mailto:info@irontrail.at">info@irontrail.at</a></div>
+</div></section>
+</main>
+
+<footer><div class="footer-inner"><div><strong>IRON TRAIL GmbH</strong><br>Fulpmes · Tirol · Österreich</div><div>© 2026 Iron Trail GmbH · Impressum · Datenschutz</div></div></footer>
+</body>
+</html>
